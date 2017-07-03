@@ -1,11 +1,10 @@
-
-
 html {
   font-size: 16px;
+  color: #4a4a4a;
 }
 
-.logo {
-  flex-grow: 1;
+.container .left-aligned {
+  margin-left: 1.5rem;
 }
 
 .container {
@@ -16,7 +15,159 @@ html {
   display: none;
 }
 
+.light-grey-background {
+  background-color: #f3f5f5;
+}
 
-.container .left-aligned {
-  margin-left: 1.5rem;
+.dark-grey-background {
+  background-color: #d8d8d8;
+}
+
+/* header */
+
+header {
+  height: 4rem;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.logo img {
+  height: 3rem;
+  width: auto;
+}
+
+.logo #academy {
+  color: #9b9b9b;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-left: 1rem;
+}
+
+nav ul li:last-child {
+  margin-right: 2rem;
+}
+
+/* main banner */
+
+.main-content {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 1.5rem;
+  width: 60%;
+}
+
+.main-content img {
+  width: 100%;
+  height: auto;
+}
+
+#main-content-text {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#main-content-text h3 {
+  padding: 2rem 0 2rem 0;
+}
+
+#main-content-button {
+  display: flex;
+  padding: 0.5rem 0;
+  background-color: #4a4a4a;
+  justify-content: center;
+}
+
+#main-content-button a {
+  color: white;
+}
+
+/* on campus information */
+
+#campus-main-information {
+  border-right: 1px solid #d8d8d8;
+}
+
+#campus-main-information h1 {
+  margin-top: 2rem;
+}
+
+#campus-main-information p {
+  margin-top: 1.5rem;
+}
+
+#campus-main-information span {
+  display: block;
+  margin-top: 2rem;
+}
+
+.secondary-content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.secondary-content-container.mobile {
+  display: none;
+}
+
+.side-pane-secondary-content {
+  display: flex;
+  width: 423px;
+  align-items: center;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.side-pane-secondary-content:first-child {
+  padding-top: 1rem;
+}
+
+.side-pane-secondary-content img {
+  width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+
+.secondary-content-text h5, .secondary-content-text p, #secondary-content-cta  {
+  padding: 0.5rem 0;
+}
+
+#secondary-content-cta a {
+  color: #428ae4;
+}
+
+
+/* online courses*/
+
+#online {
+  justify-content: center;
+  display: flex;
+}
+
+#online h1 {
+  margin: 2rem 0;
+}
+
+/* thesis exhibit*/
+
+
+
+/* footer */
+
+footer {
+  display: flex;
+}
+
+footer.left-aligned {
+  flex-grow: 1;
 }
