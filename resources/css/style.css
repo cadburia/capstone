@@ -1,0 +1,22 @@
+
+
+html {
+  font-size: 16px;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.container {
+  display: flex;
+}
+
+#nav-bar-mobile {
+  display: none;
+}
+
+
+.container div {
+  margin-left: 1.5rem;
+}
